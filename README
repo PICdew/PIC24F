@@ -1,0 +1,16 @@
+Demo_board project
+
+The detail information for this project:
+
+Board: Microchip Accessory Development Starter Kit
+SOC: PIC24FJ256GB110
+FreeRTOS v7.4.1
+
+Gyro: GY-52 MPU6050
+Sonar: HC-SR04
+Stepping: ULN2003
+IrDA: HS0038
+LCD: LCD1602+PCF8574
+
+
+
