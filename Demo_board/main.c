@@ -58,12 +58,19 @@ Change History
 #include "stepmoter_28byj48.h"
 // Soner
 #include "sonar_hcsr04.h"
+// IrDA remote
+#include "ir_remote.h"
+// UART1_Test
+#include "uart1_test.h"
 
 /* Scheduler includes. */
 #include "FreeRTOS.h"
 #include "task.h"
 #include "queue.h"
 #include "croutine.h"
+
+#include "cn_intr.h"
+
 
 /* Demo task priorities. */
 #define mainBLOCK_Q_PRIORITY				( tskIDLE_PRIORITY + 2 )
@@ -254,6 +261,7 @@ static void ADK_Task (void *pvParameters );
 int main(void)
 {
 
+    CN_Function_Reset();
     //USBInitialize(0);
     //AndroidAppStart(&myDeviceInfo);
 
@@ -270,6 +278,7 @@ int main(void)
     // I2C_Test();
     //MoterTest();
     //Sonar_HCSR04_Test();
+    IR_Remote_Test();
 
     /* 第一个任务创建在优先级1上。优先级是倒数第二个参数。數字越高越好 */
     xTaskCreate( vTask_test1, ( signed char * )"T1", mainCHECK_TAKS_STACK_SIZE, NULL, 2, NULL );
@@ -278,6 +287,7 @@ int main(void)
     xTaskCreate( vTask_test4, ( signed char * )"T4", mainCHECK_TAKS_STACK_SIZE, NULL, 2, NULL );
     xTaskCreate( vTask_Sonar_HCSR04, ( signed char * )"Sr", mainCHECK_TAKS_STACK_SIZE, NULL, 2, NULL );
     xTaskCreate( vTask_StepMoter_28BYJ48, ( signed char * )"MT", mainCHECK_TAKS_STACK_SIZE, NULL, 2, NULL );
+    xTaskCreate( vTask_Uart1_Test, ( signed char * )"IR", mainCHECK_TAKS_STACK_SIZE, NULL, 2, NULL );
 
     //xTaskCreate( ADK_Task, ( signed char * )"T9", mainCHECK_TAKS_STACK_SIZE, NULL, 2, NULL );
     /* Finally start the scheduler. */

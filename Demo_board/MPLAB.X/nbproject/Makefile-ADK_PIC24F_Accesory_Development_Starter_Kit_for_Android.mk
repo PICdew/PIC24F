@@ -45,11 +45,11 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/1472/gyro_mpu6050.o ${OBJECTDIR}/_ext/1472/i2c_func.o ${OBJECTDIR}/_ext/1472/lcd_i2c_1602.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/1472/sonar_hcsr04.o ${OBJECTDIR}/_ext/1472/stepmoter_28byj48.o ${OBJECTDIR}/_ext/1472/usb_config.o ${OBJECTDIR}/_ext/1472/usb_host.o ${OBJECTDIR}/_ext/1472/usb_host_android.o ${OBJECTDIR}/_ext/2117509390/croutine.o ${OBJECTDIR}/_ext/2117509390/list.o ${OBJECTDIR}/_ext/2117509390/queue.o ${OBJECTDIR}/_ext/2117509390/tasks.o ${OBJECTDIR}/_ext/1225974833/heap_1.o ${OBJECTDIR}/_ext/1978062352/port.o ${OBJECTDIR}/_ext/1978062352/portasm_PIC24.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/1472/gyro_mpu6050.o.d ${OBJECTDIR}/_ext/1472/i2c_func.o.d ${OBJECTDIR}/_ext/1472/lcd_i2c_1602.o.d ${OBJECTDIR}/_ext/1472/main.o.d ${OBJECTDIR}/_ext/1472/sonar_hcsr04.o.d ${OBJECTDIR}/_ext/1472/stepmoter_28byj48.o.d ${OBJECTDIR}/_ext/1472/usb_config.o.d ${OBJECTDIR}/_ext/1472/usb_host.o.d ${OBJECTDIR}/_ext/1472/usb_host_android.o.d ${OBJECTDIR}/_ext/2117509390/croutine.o.d ${OBJECTDIR}/_ext/2117509390/list.o.d ${OBJECTDIR}/_ext/2117509390/queue.o.d ${OBJECTDIR}/_ext/2117509390/tasks.o.d ${OBJECTDIR}/_ext/1225974833/heap_1.o.d ${OBJECTDIR}/_ext/1978062352/port.o.d ${OBJECTDIR}/_ext/1978062352/portasm_PIC24.o.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/_ext/2117509390/croutine.o ${OBJECTDIR}/_ext/2117509390/list.o ${OBJECTDIR}/_ext/2117509390/queue.o ${OBJECTDIR}/_ext/2117509390/tasks.o ${OBJECTDIR}/_ext/1225974833/heap_1.o ${OBJECTDIR}/_ext/1978062352/port.o ${OBJECTDIR}/_ext/1978062352/portasm_PIC24.o ${OBJECTDIR}/_ext/1472/gyro_mpu6050.o ${OBJECTDIR}/_ext/1472/i2c_func.o ${OBJECTDIR}/_ext/1472/lcd_i2c_1602.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/1472/sonar_hcsr04.o ${OBJECTDIR}/_ext/1472/stepmoter_28byj48.o ${OBJECTDIR}/_ext/1472/usb_config.o ${OBJECTDIR}/_ext/1472/usb_host.o ${OBJECTDIR}/_ext/1472/usb_host_android.o ${OBJECTDIR}/_ext/1472/ir_remote.o ${OBJECTDIR}/_ext/1472/uart1_test.o ${OBJECTDIR}/_ext/1472/cn_intr.o
+POSSIBLE_DEPFILES=${OBJECTDIR}/_ext/2117509390/croutine.o.d ${OBJECTDIR}/_ext/2117509390/list.o.d ${OBJECTDIR}/_ext/2117509390/queue.o.d ${OBJECTDIR}/_ext/2117509390/tasks.o.d ${OBJECTDIR}/_ext/1225974833/heap_1.o.d ${OBJECTDIR}/_ext/1978062352/port.o.d ${OBJECTDIR}/_ext/1978062352/portasm_PIC24.o.d ${OBJECTDIR}/_ext/1472/gyro_mpu6050.o.d ${OBJECTDIR}/_ext/1472/i2c_func.o.d ${OBJECTDIR}/_ext/1472/lcd_i2c_1602.o.d ${OBJECTDIR}/_ext/1472/main.o.d ${OBJECTDIR}/_ext/1472/sonar_hcsr04.o.d ${OBJECTDIR}/_ext/1472/stepmoter_28byj48.o.d ${OBJECTDIR}/_ext/1472/usb_config.o.d ${OBJECTDIR}/_ext/1472/usb_host.o.d ${OBJECTDIR}/_ext/1472/usb_host_android.o.d ${OBJECTDIR}/_ext/1472/ir_remote.o.d ${OBJECTDIR}/_ext/1472/uart1_test.o.d ${OBJECTDIR}/_ext/1472/cn_intr.o.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/_ext/1472/gyro_mpu6050.o ${OBJECTDIR}/_ext/1472/i2c_func.o ${OBJECTDIR}/_ext/1472/lcd_i2c_1602.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/1472/sonar_hcsr04.o ${OBJECTDIR}/_ext/1472/stepmoter_28byj48.o ${OBJECTDIR}/_ext/1472/usb_config.o ${OBJECTDIR}/_ext/1472/usb_host.o ${OBJECTDIR}/_ext/1472/usb_host_android.o ${OBJECTDIR}/_ext/2117509390/croutine.o ${OBJECTDIR}/_ext/2117509390/list.o ${OBJECTDIR}/_ext/2117509390/queue.o ${OBJECTDIR}/_ext/2117509390/tasks.o ${OBJECTDIR}/_ext/1225974833/heap_1.o ${OBJECTDIR}/_ext/1978062352/port.o ${OBJECTDIR}/_ext/1978062352/portasm_PIC24.o
+OBJECTFILES=${OBJECTDIR}/_ext/2117509390/croutine.o ${OBJECTDIR}/_ext/2117509390/list.o ${OBJECTDIR}/_ext/2117509390/queue.o ${OBJECTDIR}/_ext/2117509390/tasks.o ${OBJECTDIR}/_ext/1225974833/heap_1.o ${OBJECTDIR}/_ext/1978062352/port.o ${OBJECTDIR}/_ext/1978062352/portasm_PIC24.o ${OBJECTDIR}/_ext/1472/gyro_mpu6050.o ${OBJECTDIR}/_ext/1472/i2c_func.o ${OBJECTDIR}/_ext/1472/lcd_i2c_1602.o ${OBJECTDIR}/_ext/1472/main.o ${OBJECTDIR}/_ext/1472/sonar_hcsr04.o ${OBJECTDIR}/_ext/1472/stepmoter_28byj48.o ${OBJECTDIR}/_ext/1472/usb_config.o ${OBJECTDIR}/_ext/1472/usb_host.o ${OBJECTDIR}/_ext/1472/usb_host_android.o ${OBJECTDIR}/_ext/1472/ir_remote.o ${OBJECTDIR}/_ext/1472/uart1_test.o ${OBJECTDIR}/_ext/1472/cn_intr.o
 
 
 CFLAGS=
@@ -73,6 +73,42 @@ MP_LINKER_FILE_OPTION=,--script=p24FJ256GB110.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
+${OBJECTDIR}/_ext/2117509390/croutine.o: ../../FreeRTOSV7.4.1/source/croutine.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
+	@${RM} ${OBJECTDIR}/_ext/2117509390/croutine.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/croutine.c  -o ${OBJECTDIR}/_ext/2117509390/croutine.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/croutine.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/croutine.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/2117509390/list.o: ../../FreeRTOSV7.4.1/source/list.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
+	@${RM} ${OBJECTDIR}/_ext/2117509390/list.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/list.c  -o ${OBJECTDIR}/_ext/2117509390/list.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/list.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/list.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/2117509390/queue.o: ../../FreeRTOSV7.4.1/source/queue.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
+	@${RM} ${OBJECTDIR}/_ext/2117509390/queue.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/queue.c  -o ${OBJECTDIR}/_ext/2117509390/queue.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/queue.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/queue.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/2117509390/tasks.o: ../../FreeRTOSV7.4.1/source/tasks.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
+	@${RM} ${OBJECTDIR}/_ext/2117509390/tasks.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/tasks.c  -o ${OBJECTDIR}/_ext/2117509390/tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/tasks.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/tasks.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1225974833/heap_1.o: ../../FreeRTOSV7.4.1/source/portable/MemMang/heap_1.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1225974833 
+	@${RM} ${OBJECTDIR}/_ext/1225974833/heap_1.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MemMang/heap_1.c  -o ${OBJECTDIR}/_ext/1225974833/heap_1.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1225974833/heap_1.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1225974833/heap_1.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1978062352/port.o: ../../FreeRTOSV7.4.1/source/portable/MPLAB/PIC24_dsPIC/port.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1978062352 
+	@${RM} ${OBJECTDIR}/_ext/1978062352/port.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1978062352/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1978062352/port.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1978062352/port.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
 ${OBJECTDIR}/_ext/1472/gyro_mpu6050.o: ../gyro_mpu6050.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1472 
 	@${RM} ${OBJECTDIR}/_ext/1472/gyro_mpu6050.o.d 
@@ -127,43 +163,61 @@ ${OBJECTDIR}/_ext/1472/usb_host_android.o: ../usb_host_android.c  nbproject/Make
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ../usb_host_android.c  -o ${OBJECTDIR}/_ext/1472/usb_host_android.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/usb_host_android.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/usb_host_android.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
+${OBJECTDIR}/_ext/1472/ir_remote.o: ../ir_remote.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/ir_remote.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../ir_remote.c  -o ${OBJECTDIR}/_ext/1472/ir_remote.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/ir_remote.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/ir_remote.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1472/uart1_test.o: ../uart1_test.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/uart1_test.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uart1_test.c  -o ${OBJECTDIR}/_ext/1472/uart1_test.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/uart1_test.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/uart1_test.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+${OBJECTDIR}/_ext/1472/cn_intr.o: ../cn_intr.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/cn_intr.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../cn_intr.c  -o ${OBJECTDIR}/_ext/1472/cn_intr.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/cn_intr.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/cn_intr.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+	
+else
 ${OBJECTDIR}/_ext/2117509390/croutine.o: ../../FreeRTOSV7.4.1/source/croutine.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
 	@${RM} ${OBJECTDIR}/_ext/2117509390/croutine.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/croutine.c  -o ${OBJECTDIR}/_ext/2117509390/croutine.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/croutine.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/croutine.c  -o ${OBJECTDIR}/_ext/2117509390/croutine.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/croutine.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/croutine.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/_ext/2117509390/list.o: ../../FreeRTOSV7.4.1/source/list.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
 	@${RM} ${OBJECTDIR}/_ext/2117509390/list.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/list.c  -o ${OBJECTDIR}/_ext/2117509390/list.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/list.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/list.c  -o ${OBJECTDIR}/_ext/2117509390/list.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/list.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/list.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/_ext/2117509390/queue.o: ../../FreeRTOSV7.4.1/source/queue.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
 	@${RM} ${OBJECTDIR}/_ext/2117509390/queue.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/queue.c  -o ${OBJECTDIR}/_ext/2117509390/queue.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/queue.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/queue.c  -o ${OBJECTDIR}/_ext/2117509390/queue.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/queue.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/queue.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/_ext/2117509390/tasks.o: ../../FreeRTOSV7.4.1/source/tasks.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
 	@${RM} ${OBJECTDIR}/_ext/2117509390/tasks.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/tasks.c  -o ${OBJECTDIR}/_ext/2117509390/tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/tasks.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/tasks.c  -o ${OBJECTDIR}/_ext/2117509390/tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/tasks.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/tasks.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/_ext/1225974833/heap_1.o: ../../FreeRTOSV7.4.1/source/portable/MemMang/heap_1.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1225974833 
 	@${RM} ${OBJECTDIR}/_ext/1225974833/heap_1.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MemMang/heap_1.c  -o ${OBJECTDIR}/_ext/1225974833/heap_1.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1225974833/heap_1.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MemMang/heap_1.c  -o ${OBJECTDIR}/_ext/1225974833/heap_1.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1225974833/heap_1.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1225974833/heap_1.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 ${OBJECTDIR}/_ext/1978062352/port.o: ../../FreeRTOSV7.4.1/source/portable/MPLAB/PIC24_dsPIC/port.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1978062352 
 	@${RM} ${OBJECTDIR}/_ext/1978062352/port.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1978062352/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1978062352/port.o.d"        -g -D__DEBUG -D__MPLAB_DEBUGGER_PK3=1  -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1978062352/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1978062352/port.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1978062352/port.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-else
 ${OBJECTDIR}/_ext/1472/gyro_mpu6050.o: ../gyro_mpu6050.c  nbproject/Makefile-${CND_CONF}.mk
 	@${MKDIR} ${OBJECTDIR}/_ext/1472 
 	@${RM} ${OBJECTDIR}/_ext/1472/gyro_mpu6050.o.d 
@@ -218,41 +272,23 @@ ${OBJECTDIR}/_ext/1472/usb_host_android.o: ../usb_host_android.c  nbproject/Make
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ../usb_host_android.c  -o ${OBJECTDIR}/_ext/1472/usb_host_android.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/usb_host_android.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
 	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/usb_host_android.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/2117509390/croutine.o: ../../FreeRTOSV7.4.1/source/croutine.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
-	@${RM} ${OBJECTDIR}/_ext/2117509390/croutine.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/croutine.c  -o ${OBJECTDIR}/_ext/2117509390/croutine.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/croutine.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
-	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/croutine.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/_ext/1472/ir_remote.o: ../ir_remote.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/ir_remote.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../ir_remote.c  -o ${OBJECTDIR}/_ext/1472/ir_remote.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/ir_remote.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/ir_remote.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/2117509390/list.o: ../../FreeRTOSV7.4.1/source/list.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
-	@${RM} ${OBJECTDIR}/_ext/2117509390/list.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/list.c  -o ${OBJECTDIR}/_ext/2117509390/list.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/list.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
-	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/list.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/_ext/1472/uart1_test.o: ../uart1_test.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/uart1_test.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../uart1_test.c  -o ${OBJECTDIR}/_ext/1472/uart1_test.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/uart1_test.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/uart1_test.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
-${OBJECTDIR}/_ext/2117509390/queue.o: ../../FreeRTOSV7.4.1/source/queue.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
-	@${RM} ${OBJECTDIR}/_ext/2117509390/queue.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/queue.c  -o ${OBJECTDIR}/_ext/2117509390/queue.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/queue.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
-	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/queue.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/2117509390/tasks.o: ../../FreeRTOSV7.4.1/source/tasks.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/2117509390 
-	@${RM} ${OBJECTDIR}/_ext/2117509390/tasks.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/tasks.c  -o ${OBJECTDIR}/_ext/2117509390/tasks.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/2117509390/tasks.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
-	@${FIXDEPS} "${OBJECTDIR}/_ext/2117509390/tasks.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1225974833/heap_1.o: ../../FreeRTOSV7.4.1/source/portable/MemMang/heap_1.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1225974833 
-	@${RM} ${OBJECTDIR}/_ext/1225974833/heap_1.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MemMang/heap_1.c  -o ${OBJECTDIR}/_ext/1225974833/heap_1.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1225974833/heap_1.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1225974833/heap_1.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
-	
-${OBJECTDIR}/_ext/1978062352/port.o: ../../FreeRTOSV7.4.1/source/portable/MPLAB/PIC24_dsPIC/port.c  nbproject/Makefile-${CND_CONF}.mk
-	@${MKDIR} ${OBJECTDIR}/_ext/1978062352 
-	@${RM} ${OBJECTDIR}/_ext/1978062352/port.o.d 
-	${MP_CC} $(MP_EXTRA_CC_PRE)  ../../FreeRTOSV7.4.1/source/portable/MPLAB/PIC24_dsPIC/port.c  -o ${OBJECTDIR}/_ext/1978062352/port.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1978062352/port.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
-	@${FIXDEPS} "${OBJECTDIR}/_ext/1978062352/port.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
+${OBJECTDIR}/_ext/1472/cn_intr.o: ../cn_intr.c  nbproject/Makefile-${CND_CONF}.mk
+	@${MKDIR} ${OBJECTDIR}/_ext/1472 
+	@${RM} ${OBJECTDIR}/_ext/1472/cn_intr.o.d 
+	${MP_CC} $(MP_EXTRA_CC_PRE)  ../cn_intr.c  -o ${OBJECTDIR}/_ext/1472/cn_intr.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MMD -MF "${OBJECTDIR}/_ext/1472/cn_intr.o.d"        -omf=elf -O0 -I".." -I"../../Microchip/Include" -I"../../FreeRTOSV7.4.1/source/include" -I"../../Microchip/USB" -DPIC24F_ADK_FOR_ANDROID -DMPLAB_PIC24_PORT -msmart-io=1 -Wall -msfr-warn=off
+	@${FIXDEPS} "${OBJECTDIR}/_ext/1472/cn_intr.o.d" $(SILENT)  -rsi ${MP_CC_DIR}../ 
 	
 endif
 
